@@ -62,7 +62,7 @@ The typical format of registration functions is as follows (some methods may omi
 
 The ``target`` parameter is the ID of the HTML element to which the callback registration is to be applied. This field has the following special meanings:
 
-  - ``0`` or ``NULL``: A default element is chosen automatically based on the event type, which should be reasonable most of the time.
+  - ``0`` or ``NULL``: A default element is chosen automatically based on the event type, which should be reasonable most of the time. (Note that this is no longer recommended, and it is preferred to use the other options.)
   - ``#window``: The event listener is applied to the JavaScript ``window`` object.
   - ``#document``: The event listener is applied to the JavaScript ``document`` object.
   - ``#screen``: The event listener is applied to the JavaScript ``window.screen`` object.
